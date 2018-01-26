@@ -2,7 +2,7 @@
 Name=Pixel Theme
 Comment=A simple pixel theme
 Inherits=breeze,gnome
-Directories=actions/scalable,apps/scalable,devices/scalable,mimetypes/scalable,places/16x16,panel/16,places/scalable
+Directories=actions/scalable,apps/scalable,devices/scalable,mimetypes/scalable,places/16x16,panel/16,places/scalable,status
 
 FollowsColorScheme=true
 
@@ -54,6 +54,13 @@ MinSize=8
 MaxSize=256
 
 [panel/16]
+Size=16
+Context=Status
+Type=Scalable
+MinSize=8
+MaxSize=24
+
+[status]
 Size=16
 Context=Status
 Type=Scalable
